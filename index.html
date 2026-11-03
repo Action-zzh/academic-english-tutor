@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="英语科技论文阅读与写作：输入课堂访问密码，进入智能教师课堂。无需登录 GitHub 或 ChatGPT。">
+  <title>英语科技论文阅读与写作</title>
+  <link rel="stylesheet" href="access.css">
+  <script src="access.js" defer></script>
+</head>
+<body>
+  <main class="entry">
+    <section class="invitation" aria-label="课程介绍">
+      <p class="eyebrow">ACADEMIC ENGLISH · VIRTUAL CLASSROOM</p>
+      <h1>英语科技论文<br>阅读与写作<span>Reading &amp; Writing<br>Scientific Papers</span></h1>
+      <p class="intro">与智能教师一起，理解结果、讨论与结论，<br>把学术表达的思路讲清楚。</p>
+      <div class="course-tags"><span>47 页课件</span><span>英文讲解 · 中文参考</span><span>实时互动</span></div>
+    </section>
+    <section class="access-card" aria-labelledby="access-title">
+      <div class="monogram" aria-hidden="true">AE</div>
+      <p class="eyebrow">WELCOME TO THE CLASSROOM</p>
+      <h2 id="access-title">进入课堂</h2>
+      <p class="card-description">请输入分享者提供的访问密码。</p>
+      <form id="accessForm">
+        <label for="accessPassword">课堂访问密码</label>
+        <input id="accessPassword" name="password" type="password" required maxlength="128" autocomplete="current-password" aria-describedby="accessMessage" placeholder="输入访问密码" autofocus>
+        <p id="accessMessage" class="message" role="status" aria-live="polite"></p>
+        <button id="accessSubmit" type="submit">进入课堂 <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="account-note">不需要登录 GitHub 或 ChatGPT</p>
+      <noscript><p class="message">请启用 JavaScript 后输入课堂密码。</p></noscript>
+    </section>
+  </main>
+  <footer>英语科技论文阅读与写作 <span>RESULTS · DISCUSSION · CONCLUSION</span></footer>
+</body>
+</html>
